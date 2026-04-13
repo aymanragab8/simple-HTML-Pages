@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <!-- ================= REGISTER FORM ================= -->
+    <form>
+
+        <!-- ===== First Name ===== -->
+        <div>
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text" required>
+        </div>
+
+        <!-- ===== Last Name ===== -->
+        <div>
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="text" required>
+        </div>
+
+        <!-- ===== Phone Number ===== -->
+        <div>
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel" required>
+        </div>
+
+        <!-- ===== Email ===== -->
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+        </div>
+
+        <!-- ===== Password ===== -->
+        <div>
+            <label for="password">Password</label>
+            <input id="password" type="password" required>
+        </div>
+
+        <!-- ===== Gender ===== -->
+        <div>
+            <label>Gender</label>
+
+            <input id="male" type="radio" value="Male" name="gender">
+            <label for="male">Male</label>
+
+            <input id="female" type="radio" value="Female" name="gender">
+            <label for="female">Female</label>
+        </div>
+
+        <!-- ===== Country ===== -->
+        <div>
+            <label for="country">What is your country?</label>
+            <select name="country" id="country">
+                <option value="egy">Egypt</option>
+                <option value="mor">Morocco</option>
+                <option value="tun">Tunisia</option>
+            </select>
+        </div>
+
+        <!-- ===== Favorite Language ===== -->
+        <div>
+            <label for="languageInput">Favorite Language</label>
+            <input id="languageInput" list="languageOptions">
+
+            <datalist id="languageOptions">
+                <option value="C">
+                <option value="C++">
+                <option value="C#">
+                <option value="Java">
+                <option value="JavaScript">
+                <option value="Python">
+            </datalist>
+        </div>
+
+        <!-- ===== Birth Date ===== -->
+        <div>
+            <label for="birthDate">Birth Day</label>
+            <input id="birthDate" type="date" required>
+        </div>
+
+        <!-- ===== Submit Button ===== -->
+        <div>
+            <input type="submit" value="Sign Up">
+        </div>
+
+    </form>
+
+</body>
+</html>
